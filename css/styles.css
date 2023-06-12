@@ -1,0 +1,136 @@
+/**
+  |============================
+  | Comon styles
+  |============================
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/**
+  |============================
+  | Reset
+  |============================
+*/
+ul,
+ol {
+ list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+}
+/**
+  |============================
+  | Header Block
+  |============================
+*/
+.header {}
+
+.header-nav {}
+    
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+.header-logo span {
+    color: #2E2F42;
+}
+
+.header-nav-list {}
+
+.header-nav-item {}
+
+.header-nav-link {}
+
+.header-adress {}
+
+.header-adress-list {}
+
+.header-adress-item {}
+
+.header-adress-link {}
+/**
+  |============================
+  | Hero section 
+  |============================
+*/
+.hero-section {}
+
+.hero-title {}
+/**
+  |============================
+  | Description section
+  |============================
+*/
+.deskr-section {}
+
+.deskr-list {}
+
+.deskr-list-item {}
+
+.deskr-list-title {}
+
+.deskr-list-text {}
+/**
+  |============================
+  | What are we doing section
+  |============================
+*/
+.doing-section {}
+
+.doing-section-title {}
+
+.doing-section-list {}
+
+.doing-section-item {}
+
+.doing-section-img {}
+/**
+  |============================
+  | Team section
+  |============================
+*/
+.team-section {}
+
+.team-section-title {}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-list-title {}
+
+.team-list-text {}
+
+.team-list-img {}
+/**
+  |============================
+  | Footer block
+  |============================
+*/
+.footer {}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+ 
+.footer-logo span {
+    color: #F4F4FD;
+}
+
+.link {}
+
+.fotter-text {}

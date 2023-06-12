@@ -6,72 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!--Header block-->
-    <header>
-        
-        <nav>
-            <a href="./index.html">WebStudio</a>
+    <header class="header">
 
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="./index.html">Portfolio</a></li>
-                <li><a href="./index.html">Contacts</a></li>
+        <!--Navigation menu-->
+        <nav class="header-nav">
+            <a class="header-logo" href="./index.html">Web<span>Studio</span></a>
+
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Studio</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="./portfolio.html">Portfolio</a></li>
+                <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Contacts</a></li>
             </ul>
         </nav>
 
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <!--Contact-->
+        <address class="header-adress">
+            <ul class="header-adress-list">
+                <li class="header-adress-item"><a class="header-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-adress-item"><a class="header-adress-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
 
     <!--Main block-->
-    <main>
+    <main class="main">
+
         <!--Hero section-->
-        <section>
-            <h1>Effective Solutions
+        <section class="hero-section">
+            <h1 class="hero-title">Effective Solutions
                 for Your Business</h1>
 
             <button type="button">Order Service</button>
         </section>
 
-        <section>
+        <!--Description section-->
+        <section class="deskr-section">
 
             <h2 hidden>Section2</h2>
 
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>
+            <ul class="deskr-list">
+                <li class="deskr-list-item">
+                    <h3 class="deskr-list-title">Strategy</h3>
+                    <p class="deskr-list-text">
                         Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.
                     </p>
                 </li>
 
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>
+                <li class="deskr-list-item">
+                    <h3 class="deskr-list-title">Punctuality</h3>
+                    <p class="deskr-list-text">
                         Bring the key message to the brand's audience for the best price within the shortest possible
                         time.
                     </p>
                 </li>
 
-                <li>
-                    <h3>Diligence</h3>
-                    <p>
+                <li class="deskr-list-item">
+                    <h3 class="deskr-list-title">Diligence</h3>
+                    <p class="deskr-list-text">
                         Research and confirm brands that present the strongest digital growth opportunities and minimize
                         risk.
                     </p>
                 </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>
+                <li class="deskr-list-item">
+                    <h3 class="deskr-list-title">Technologies</h3>
+                    <p class="deskr-list-text">
                         Design practice focused on digital experiences. We bring forth a deep passion for
                         problem-solving.
                     </p>
@@ -81,45 +88,45 @@
         </section>
 
         <!--What are we doing section-->
-        <section>
-            <h2>What are we doing</h2>
-            <ul>
-                <li>
-                    <img src="./images/img1.jpg" alt="computer" width="360" height="300" />
+        <section class="doing-section">
+            <h2 class="doing-section-title">What are we doing</h2>
+            <ul class="doing-section-list">
+                <li class="doing-section-item">
+                    <img class="doing-section-img" src="./images/img1.jpg" alt="computer" width="360" height="300" />
                 </li>
-                <li>
-                    <img src="./images/img2.jpg" alt="telefone" width="360" height="300" />
+                <li class="doing-section-item">
+                    <img class="doing-section-img" src="./images/img2.jpg" alt="telefone" width="360" height="300" />
                 </li>
-                <li>
-                    <img src="./images/img3.jpg" alt="telefon and computer" width="360" height="300" />
+                <li class="doing-section-item">
+                    <img class="doing-section-img" src="./images/img3.jpg" alt="telefon and computer" width="360" height="300" />
                 </li>
             </ul>
 
         </section>
 
-        <!--Teaam section-->
-        <section>
-            <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <img src="./images/MarkGuerrero.jpg" alt="MarkGuerrero" width="264" height="260" />
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+        <!--Team section-->
+        <section class="team-section">
+            <h2 class="team-section-title">Our Team</h2>
+            <ul class="team-list">
+                <li class="team-list-item">
+                    <img class="team-list" src="./images/MarkGuerrero.jpg" alt="MarkGuerrero" width="264" height="260" />
+                    <h3 class="team-list-title">Mark Guerrero</h3>
+                    <p class="team-list-text">Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/TomFord.jpg" alt="TomFord" width="264" height="260" />
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <img class="team-list-img" src="./images/TomFord.jpg" alt="TomFord" width="264" height="260" />
+                    <h3 class="team-list-title">Tom Ford</h3>
+                    <p class="team-list-text">Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/CamilaGarcia.jpg" alt="CamilaGarcia" width="264" height="260" />
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <img class="team-list-img" src="./images/CamilaGarcia.jpg" alt="CamilaGarcia" width="264" height="260" />
+                    <h3 class="team-list-title">Camila Garcia</h3>
+                    <p class="team-list-text">Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/DanielWilson.jpg" alt="DanielWilson" width="264" height="260" />
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <img class="team-list-img" src="./images/DanielWilson.jpg" alt="DanielWilson" width="264" height="260" />
+                    <h3 class="team-list-title">Daniel Wilson</h3>
+                    <p class="team-list-text">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -127,9 +134,9 @@
     </main>
 
     <!--Footer block-->
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <p>
+    <footer class="footer">
+        <a class="footer-logo link" href="./index.html">Web<span>Studio</span></a>
+        <p class="fotter-text">
             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         </p>
     </footer>
