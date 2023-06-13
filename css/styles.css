@@ -5,7 +5,32 @@
 */
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
+
+.section-title {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+}
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 /**
   |============================
   | Reset
@@ -22,33 +47,55 @@ a {
 
 button {
     font-family: inherit;
+    
+}
+button:hover,
+button:focus {
+    background: #404BBF;
 }
 /**
   |============================
   | Header Block
   |============================
 */
-.header {}
+.header {
+    background: #FFFFFF;
+}
 
-.header-nav {}
-    
 .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     text-decoration: none;
 }
+
 .header-logo span {
     color: #2E2F42;
 }
 
-.header-nav-list {}
+.header-nav {
+    
+}
+    
+.header-nav-list {
+    
+}
 
 .header-nav-item {}
+    
 
-.header-nav-link {}
+.header-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #404BBF;
+}
 
 .header-adress {}
 
@@ -56,37 +103,60 @@ button {
 
 .header-adress-item {}
 
-.header-adress-link {}
+.header-adress-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-adress-link:hover,
+.header-adress-link:focus {
+    color: #404BBF;
+}
 /**
   |============================
   | Hero section 
   |============================
 */
-.hero-section {}
+.hero-section {
+    background: #2E2F42;
+}
 
-.hero-title {}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.button-hero {
+    background: #4D5AE5;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
 /**
   |============================
   | Description section
   |============================
 */
-.deskr-section {}
+.deskr-section {
+    
+}
 
 .deskr-list {}
 
 .deskr-list-item {}
 
-.deskr-list-title {}
 
-.deskr-list-text {}
 /**
   |============================
   | What are we doing section
   |============================
 */
-.doing-section {}
-
-.doing-section-title {}
+.doing-section {
+    
+}
 
 .doing-section-list {}
 
@@ -98,17 +168,17 @@ button {
   | Team section
   |============================
 */
-.team-section {}
+.team-section {
+    background: #F4F4FD;
+}
 
-.team-section-title {}
+.team-list {
+    
+}
 
-.team-list {}
-
-.team-list-item {}
-
-.team-list-title {}
-
-.team-list-text {}
+.team-list-item {
+    background: #FFFFFF;
+}
 
 .team-list-img {}
 /**
@@ -116,7 +186,9 @@ button {
   | Footer block
   |============================
 */
-.footer {}
+.footer {
+    background: #2E2F42;
+}
 
 .footer-logo {
     font-family: 'Raleway';
@@ -133,4 +205,21 @@ button {
 
 .link {}
 
-.fotter-text {}
+.fotter-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+/**
+  |============================
+  | Portfolio page
+  |============================
+*/
+.button-porfolio {
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+}
