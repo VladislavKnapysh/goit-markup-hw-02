@@ -47,12 +47,8 @@ a {
 
 button {
     font-family: inherit;
-    
 }
-button:hover,
-button:focus {
-    background: #404BBF;
-}
+
 /**
   |============================
   | Header Block
@@ -134,6 +130,11 @@ button:focus {
     background: #4D5AE5;
     border-radius: 4px;
     color: #FFFFFF;
+    border: none;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background: #404BBF;
 }
 /**
   |============================
@@ -141,7 +142,6 @@ button:focus {
   |============================
 */
 .deskr-section {
-    
 }
 
 .deskr-list {}
@@ -222,4 +222,9 @@ button:focus {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     color: #4D5AE5;
+}
+.button-porfolio:hover,
+.button-porfolio:focus {
+    background: #404BBF;
+    color: #FFFFFF;
 }
