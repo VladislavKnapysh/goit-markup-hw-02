@@ -43,10 +43,12 @@ ol {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 button {
     font-family: inherit;
+    cursor: pointer;
 }
 
 /**
@@ -192,7 +194,6 @@ button {
 
 .footer-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
