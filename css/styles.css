@@ -3,9 +3,27 @@
   | Comon styles
   |============================
 */
+:root {
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
 }
 
 .section-title {
@@ -31,25 +49,6 @@ body {
     color: #434455;
 }
 
-/**
-  |============================
-  | Reset
-  |============================
-*/
-ul,
-ol {
- list-style: none;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-button {
-    font-family: inherit;
-    cursor: pointer;
-}
 
 /**
   |============================
@@ -61,14 +60,17 @@ button {
 }
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway' ,sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
 
-.header-logo span {
+.header-text-span {
     color: #2E2F42;
 }
 
@@ -95,7 +97,9 @@ button {
     color: #404BBF;
 }
 
-.header-adress {}
+.header-adress {
+    font-style: normal;
+}
 
 .header-adress-list {}
 
@@ -172,6 +176,10 @@ button {
 */
 .team-section {
     background: #F4F4FD;
+}
+
+.team-section-title {
+
 }
 
 .team-list {
