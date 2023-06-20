@@ -226,7 +226,6 @@ body {
     line-height: 1.5;
     color: var(--butn-logo-color);
     letter-spacing: 0.04em;
-    text-transform: uppercase;
 }
 
 .button-porfolio:hover,
